@@ -1,0 +1,23 @@
+@import '~antd/dist/antd.css';
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: normal;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  padding: 0;
+} 
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
