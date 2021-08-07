@@ -1,8 +1,8 @@
 .text {
     padding-top: 12px;
-    font-size: 1.125ren;
-    line-height: 1.5ren;
-    /** ren : se adapta de acordo com a resolução da tela do usuario **/
+    font-size: 1.125rem;
+    line-height: 1.5rem;;
+    /** rem : se adapta de acordo com a resolução da tela do usuario **/
 }
 .share {
     padding: 26px;
