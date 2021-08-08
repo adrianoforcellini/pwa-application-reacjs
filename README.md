@@ -1,6 +1,6 @@
 ## PWA React JS 
 ### Criando uma site de notícías para web e mobile.
-<img width="720" src="pwa-application-reacjs/pwa.gif">
+![](/pwa.gif)
 ## Para utilizar o app:
 ### - Faça o clone do repositório com o comando $ git clone https://github.com/adrianoforcellini/pwa-application-reacjs 
 ### - Entre na pasta pwa-news-dio-api/src com o comando $ cd pwa-application-reacjs/pwa-news-dio-api/src/
