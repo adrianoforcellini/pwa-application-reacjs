@@ -6,4 +6,4 @@
 ### - Entre na pasta pwa-news-dio-api/src com o comando $ cd pwa-application-reacjs/pwa-news-dio-api/src/
 ### - Inicie o servidor backend com o comando: $ npm run dev
 ### - Abra um novo terminal e  navegue até a pasta raiz com o comando $ cd ../../
-### - Audite as depencias, e inicie o servidor React : npm i && npm start
+### - Instale as dependencias, e inicie o servidor React : npm i && npm start
