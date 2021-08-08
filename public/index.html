@@ -15,6 +15,15 @@
 <body>
   <noscript>You need turn on JS.</noscript>
   <div id="root"></div>
+  <script>
+    if ('serviceWorker' in navigator){
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js', { useCache: true}).then(registration => {
+          console.log('Registro realizado', registration.scope)
+        }).catch(err => console.log(err))
+      })
+    }
+  </script>
 </body>
 
 </html>

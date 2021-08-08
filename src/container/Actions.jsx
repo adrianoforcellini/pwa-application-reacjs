@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
-import ShareIcon from '../images/share.svg'
-import CopyIcon from '../images/copy.svg'
+import ShareIcon from '../images/share.png'
+import CopyIcon from '../images/copy.png'
 
 const navigatorHasShare = navigator.share
 
