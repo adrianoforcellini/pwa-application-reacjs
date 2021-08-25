@@ -1,7 +1,6 @@
 import React from 'react'
 import Home from './container/Home'
 import Post from './container/Post'
-// import Header from './components/Header'
 import './App.css'
 import {
   BrowserRouter as Router,
@@ -12,7 +11,6 @@ import {
 function App() {
   return (
     <main>
-      {/* <Header /> */}
       <section>
         <Router>
           <div>
