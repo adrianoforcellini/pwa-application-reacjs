@@ -15,4 +15,4 @@
 
 ####  Para verificar o funcionamento da aplicação : https://main.d38rvspk2bo6hv.amplifyapp.com/
 <br><br/><br><br/>
-![](/pwa.gif)
+<img src="/pwa2.gif" width="750" height="450"/>
