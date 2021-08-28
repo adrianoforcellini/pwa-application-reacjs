@@ -1,0 +1,21 @@
+org: adrianwarrior
+app: pwa-new-api
+service: pwa-new-api
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: '20201221'
+
+functions:
+  api:
+    handler: handler.handler
+    events:
+      - http:
+          path: /
+          method: ANY
+      - http:
+          path: /{proxy+}
+          method: ANY

@@ -27,7 +27,7 @@ function Actions({ post, subject }) {
 
     const icon = navigatorHasShare ? ShareIcon : CopyIcon
 
-    return <img alt="icon" src={icon} className="share-icon" onClick={action} />
+    return <img alt="icon" width="40vw" height="40vw" src={icon} className="share-icon" onClick={action} />
   }
 
   return (
