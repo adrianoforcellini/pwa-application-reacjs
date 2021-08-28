@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const connectBack = axios.create({
-    baseURL: "http://localhost:2000/api"
+    baseURL: "https://8k7dteeldk.execute-api.us-east-1.amazonaws.com/dev/api"
 })
 
 
@@ -23,7 +23,6 @@ const getNews = async (subject) => {
 const getNewsById = async (subject, id) => {
     const fetchAPI = await connectBack(`${subject}/${id}`, params)
     const { data } = fetchAPI;
-    console.log('aaa', data)
     return data;
 
 }
