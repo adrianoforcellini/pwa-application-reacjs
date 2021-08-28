@@ -1,5 +1,4 @@
 @import '~antd/dist/antd.css';
-
 * {
   outline: none;
   box-sizing: border-box;
@@ -14,10 +13,15 @@ html, body {
   min-height: 100%;
   display: flex;
   padding: 0;
-} 
+}
 
 #root {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.share-icon {
+  width: 3vw;
+  height: 3vw;
 }
