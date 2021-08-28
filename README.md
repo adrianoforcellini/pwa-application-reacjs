@@ -1,11 +1,18 @@
 ## PWA React JS 
-### Criando uma site de notícías para web e mobile.
+### Site de notícías para web e mobile que utiliza os conceitos de PWA.
+### Responsividade com biblioteca Ant Design, funcionamento off-line via Cache
+### Possuí instalabilidade, redireciona trafego HTTP para HTTPS,
+### Possui tela inicial temática para garantir uma melhor experiência ao usuário,
+### Foi realizado o deploy do back-end no Amazon S3,  
+### E deploy do front-end no AWS Amplify.
+
+#### você pode verificar as APIs em:
+##### https://8k7dteeldk.execute-api.us-east-1.amazonaws.com/dev/api  ( Todas Notícias )
+##### https://8k7dteeldk.execute-api.us-east-1.amazonaws.com/dev/api/world ( Notícias "World" )
+##### https://8k7dteeldk.execute-api.us-east-1.amazonaws.com/dev/api/economy ( Notícias "Economy" )
+##### https://8k7dteeldk.execute-api.us-east-1.amazonaws.com/dev/api/technology ( Notícias "Technology" )
+
+### Para verificar o funcionamento da aplicação :
+#### https://main.d38rvspk2bo6hv.amplifyapp.com/
+
 ![](/pwa.gif)
-## Para utilizar o app:
-### - Faça o clone do repositório com o comando 
-### $ git clone https://github.com/adrianoforcellini/pwa-application-reacjs 
-### - Entre na pasta pwa-news-dio-api/src com o comando 
-### $ cd pwa-application-reacjs/pwa-news-dio-api/src/
-### - Inicie o servidor backend com o comando: $ npm run dev
-### - Abra um novo terminal e  navegue até a pasta raiz com o comando $ cd ../../
-### - Instale as dependencias, e inicie o servidor React : npm i && npm start
