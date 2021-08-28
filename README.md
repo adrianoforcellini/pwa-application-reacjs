@@ -4,6 +4,7 @@
 ### Possuí instalabilidade, redireciona trafego HTTP para HTTPS,
 ### Possui tela inicial temática para garantir uma melhor experiência ao usuário,
 ### Permite ao smartphone compartilhar as notícias com qualquer um de seus aplicativos de compartilhamento,
+### O back-end foi criado com Serverles, Node JS e Express, e o Front em React JS.
 ### Foi realizado o deploy do back-end no __Amazon S3__, e deploy do front-end no __AWS Amplify__.
 
 #### você pode verificar as APIs em:
