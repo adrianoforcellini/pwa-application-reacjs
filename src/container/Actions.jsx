@@ -4,7 +4,7 @@ import CopyIcon from "../images/copy.png";
 
 const navigatorHasShare = navigator.share;
 
-const URL = "https://pwa-wnews.netlify.app/";
+const URL = "https://main.d38rvspk2bo6hv.amplifyapp.com/";
 
 function Actions({ post, subject }) {
   const { id, title } = post;
