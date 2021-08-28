@@ -13,7 +13,6 @@
 ##### https://8k7dteeldk.execute-api.us-east-1.amazonaws.com/dev/api/economy ( Notícias "Economy" )
 ##### https://8k7dteeldk.execute-api.us-east-1.amazonaws.com/dev/api/technology ( Notícias "Technology" )
 
-####  Para verificar o funcionamento da aplicação :
-##### https://main.d38rvspk2bo6hv.amplifyapp.com/
+####  Para verificar o funcionamento da aplicação : https://main.d38rvspk2bo6hv.amplifyapp.com/
 <br><br/><br><br/>
 ![](/pwa.gif)
