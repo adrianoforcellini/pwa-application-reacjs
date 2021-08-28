@@ -22,6 +22,10 @@ html, body {
 }
 
 .share-icon {
-  width: 3vw;
-  height: 3vw;
+    width: 300px;
+    position: relative;
+}
+
+.share-icon img {
+  width: 10%;
 }
