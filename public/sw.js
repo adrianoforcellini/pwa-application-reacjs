@@ -1,11 +1,10 @@
-import self from 'self-made';
 var CACHE_NAME = 'pwa-news';
 var urlsToCache = [
   '/',
   '/index.html'
 ];
 
-self.addEventListener('install', event => {
+window.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
@@ -15,7 +14,7 @@ self.addEventListener('install', event => {
   );
 });
 
-self.addEventListener('activate', event => {
+window.addEventListener('activate', event => {
   var cacheWhitelist = ['pwa-task-manager'];
   event.waitUntil(
     caches.keys().then(cacheNames => {
@@ -30,7 +29,7 @@ self.addEventListener('activate', event => {
   );
 });
 
-self.addEventListener('fetch', function(event) {
+window.addEventListener('fetch', function(event) {
   console.log("fetch", event)
   event.respondWith(
     caches.open(CACHE_NAME).then(function(cache) {
